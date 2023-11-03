@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css"> <!-- it uses to link the    
+                                              css page -->
+    <title>Todo app</title>
+</head>
+<body>
+    <h1 id="main">TODO LIST🧾</h1>
+
+    <div class="grid-container"> <!-- here class uses for  text button ,
+                                   date and add button-->
+    <input  id="app" type="text" placeholder="Add a new task...">
+    <input  id="todo-date" type="date">
+    <button class="btn-todo" onclick="addtodo()" >Add</button> <!-- if we click on the add button,it will runs the addtodo function -->
+   
+
+</div>
+    <div class="todo-container grid-container"></div>  <!--in class we can give any number of class  --> 
+
+    <script src="todo.js"></script> <!-- it uses to link the js page-->
+    
+</body>
+</html>

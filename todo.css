@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; /*it gives the font style*/
+    background-image: url('sravani.jpeg');
+    
+}
+
+.grid-container {
+    display: grid; /* it arrange in rows or column*/
+    grid-template-columns: 200px 150px 100px; /*it arrange the columns by its size given*/
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    
+}
+
+
+#main{
+    text-align: center;
+    
+}
+#app,#todo-date{
+    font-size: 15px;
+    padding: 10px 5px; /*padding gives space around and increase the size of the inside content 10px from top-down and 5px left-right of the box*/
+
+}
+.btn-delete{
+    background-color: rgba(87,4,4);
+    color: white;
+    border: none;
+    border-radius: 10px; 
+    padding:15px 0px; /*15px from top-down and 0px from left-right it gives padding inside the delete button from top down and left and right*/
+    cursor: pointer; /*if we place the cursor on 
+                       delete it will display the cursor symbol to delete*/
+}
+.btn-todo{
+    background-color: rgb(5, 120, 25);
+    color: white;
+    border: none;
+    border-radius: 10px; 
+    padding:15px 0px; /*15px from top-down and 0px from left-right it gives padding inside the delete button from top down and left and right*/
+    cursor: pointer;
+}
